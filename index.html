@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="styles.css">
+
+      <title>Responsive portfolio</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <span class="nav__logo-circle">A</span>
+               <span class="nav__logo-name">Aman.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
+
+               <h3 class="nav__name">Aman</h3>
+
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Me</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <!-- <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact Me</a>
+                  </li> -->
+               </ul>
+
+               <!-- Close Button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="fa-solid fa-xmark"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Toggle Button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="fa-solid fa-bars"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Aman Chaudhary
+               </h1>
+
+               <div class="home__perfil">
+               <div class="home__image">
+                  <img src="about.png" alt="" class="home__img">
+                  <!-- <div class="home__shadow">
+                     <img src="curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="random-lines.svg" alt="" class="home__line">
+
+                     <div class="geometric-box"></div>
+
+                  </div> -->
+
+                  <div class="home__social">
+                     <a href="https://www.linkedin.com/in/aman-chaudhary-64832a232/" target="_blank" class="home__social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                     </a>
+
+                     <a href="https://github.com/amanchaudhary-code" target="_blank" class="home__social-link">
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+
+                     <a href="https://twitter.com/aman7chaudhary" target="_blank" class="home__social-link">
+                        <i class="fa-brands fa-x-twitter"></i>
+                     </a>
+                  </div>
+               </div>
+               </div>
+
+               <div class="home__info">
+                  <p class="home__description">
+                     <b>Frontend Developer</b>, with knowledge in web 
+                     development and design, I offer the best 
+                     projects resulting in quality work.
+                  </p>
+
+                  <!-- <a href="#about" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="fa-solid fa-angle-down"></i>
+                     </div>
+
+                     <span class="home__scroll-text">Scroll Down</span>
+                  </a> -->
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                  About Me.
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="pic.jpg" alt="image" class="about__img">
+
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+
+                     <div class="about__box"></div>
+                  </div>
+               </div>
+               
+               <div class="about__info">
+                  <p class="about__description">
+                     Hello! I'm Aman, a passionate computer science student driven by a curiosity for technology and a commitment to innovation. 
+                     Currently pursuing my B.E in Computer Science at Dayananda Sagar Academy of Technology and Management, I am on a journey to explore, learn, and contribute to the ever-evolving world of technology.
+                  </p>
+
+                  <ul class="about__list">
+                     <li class="about__item">
+                        <b>My Skills Are:</b> C, C++, Java(Basic), HTML, CSS,
+                        JavaScript, Bootstrap.
+                     </li>
+                  </ul>
+
+                  <div class="about__buttons">
+                     <a href="file:///C:/Users/imcoo/Downloads/Aman's%20Resume%20(1).pdf" class="button">
+                        <i class="fa-solid fa-file"></i> My Resume
+                     </a>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <!-- <section class="services section">
+            
+         </section> -->
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+               Projects.
+            </h2>
+
+            <div class="projects__container container grid">
+               <!-- PROJECT 1 -->
+               <article class="projects__card">
+                  <div class="projects_imgage">
+                     <img src="shop.png" alt="image" class="projects__img">
+
+                     <!-- <a href="#" class="projects__button button">
+                        <i class="fa-solid fa-link"></i>
+                     </a> -->
+
+                     <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Cara: Responsive E-Commerce Website</h2>
+
+                        <p class="projects__description">
+                           This is a Responsive E-commerce website,
+                           using HTML,CSS and Javascript.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/amanchaudhary-code/Cara" target="_blank" class="projects__link">
+                        <i class="fa-brands fa-github"></i> View
+                     </a>
+                  </div>
+               </article>
+
+               <!-- PROJECT 2 -->
+
+               <article class="projects__card">
+                  <div class="projects_imgage">
+                     <img src="net.png" alt="image" class="projects__img">
+
+                     <!-- <a href="#" class="projects__button button">
+                        <i class="fa-solid fa-link"></i>
+                     </a> -->
+
+                     <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Netflix Clone</h2>
+
+                        <p class="projects__description">
+                           Clone of a OTT platform
+                           Netflix using HTMl,CSS and Javascript.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="fa-brands fa-github"></i> View
+                     </a>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <!-- <section class="contact section" id="contact">
+            
+         </section> -->
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+
+            <span class="footer__copy">
+               &#169; <a href="#">Aman.</a>
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
