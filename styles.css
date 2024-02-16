@@ -86,6 +86,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  radius: 50%;
   height: auto;
 }
 
