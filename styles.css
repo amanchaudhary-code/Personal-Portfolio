@@ -39,7 +39,7 @@
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
+
 @media screen and (min-width: 1150px) {
   :root {
     --biggest-font-size: 4.5rem;
@@ -52,7 +52,6 @@
   }
 }
 
-/*=============== BASE ===============*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -89,19 +88,7 @@ img {
   height: auto;
 }
 
-/*=============== THEME ===============*/
 
-
-/*========== Variables Dark theme ==========*/
-
-
-/*========== 
-	Color changes in some parts of 
-	the website, in dark theme
-==========*/
-
-
-/*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -272,6 +259,7 @@ img {
 }
 
 .nav__link{
+  content: "";
   position: relative;
   color: var(--text-color-light);
   font-size: var(--h3-font-size);
@@ -280,7 +268,6 @@ img {
 }
 
 .nav__link::after{
-  content: "";
   width: 25%;
   height: 2px;
   background-color: var(--white-color);
@@ -292,6 +279,7 @@ img {
 
 .nav__link:hover{
   color: var(--white-color);
+  text-transform: uppercase;
 }
 
 .nav__link:hover::after{
@@ -402,10 +390,6 @@ img {
               hsla(14,98%,50%,0));
 }
 
-
-
-
-/* Animate scroll icon */
 
 @keyframes scroll-down{
   0%{
@@ -567,6 +551,13 @@ img {
   position: relative;
   margin-bottom: .75rem;
 }
+
+/* .projects__button{
+  position: absolute;
+  right: 1rem;
+  bottom: -1.5rem;
+  padding: 1rem;
+} */
 
 .projects__content{
   margin-bottom: 1.25rem;
@@ -960,16 +951,5 @@ img {
   .projects__content{
     margin-bottom: 2rem;
   }
-
-  /* .footer__container{
-    padding-block: 4rem;
-    grid-template-columns: repeat(2, max-content);
-    justify-content: space-between;
-  } */
-
-
-
-
-
 
 }
